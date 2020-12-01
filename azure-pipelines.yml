@@ -14,8 +14,8 @@ variables:
   imageRepository: 'website'
   containerRegistry: 'fcavallo.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/website/dockerfile'
-  tag: '$(Build.BuildId)'
-  
+  tag: '$(Build.BuildNumber)'
+  mongoPwd: $(mongoPwd)  
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
