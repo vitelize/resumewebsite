@@ -1,0 +1,371 @@
+[{
+  "_id": {
+    "$oid": "5f9ec26d92522f831cb8f6bd"
+  },
+  "Company": "Egee",
+  "JobTitle": "Développeur",
+  "JobInformation": "Alternance",
+  "Location": "Annecy",
+  "Description": "Evolutions et corrections du logiciel d'entreprise.",
+  "StartDate": "2/11/2010",
+  "EndDate": "20/07/2011",
+  "Tags": [
+    {
+      "Text": "TMA",
+      "Type": "JobType"
+    },
+    {
+      "Text": "VB",
+      "Type": "Language"
+    },
+    {
+      "Text": "C#",
+      "Type": "Language"
+    },
+    {
+      "Text": "C++",
+      "Type": "Language"
+    },
+    {
+      "Text": "WinDev",
+      "Type": "Outil"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa1c6af5feb7b36e0adbd81"
+  },
+  "Company": "Widiwici",
+  "JobTitle": "Stagiaire développeur web",
+  "JobInformation": "Alternance",
+  "Location": "Annecy ",
+  "Description": "<ul><li>Correctifs et évolutions de site web</li><li>Automatisation de traitements vidéo</li></ul>",
+  "StartDate": "20/07/2011",
+  "EndDate": "20/06/2012",
+  "Tags": [
+    {
+      "Text": "HTML",
+      "Type": "Language"
+    },
+    {
+      "Text": "CSS",
+      "Type": "Language"
+    },
+    {
+      "Text": "JS Vanilla",
+      "Type": "Language"
+    },
+    {
+      "Text": "PHP",
+      "Type": "Language"
+    },
+    {
+      "Text": "FFMPEG",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Dreamweaver",
+      "Type": "Outil"
+    },
+    {
+      "Text": "MySQL",
+      "Type": "SGBD"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa1c7cb5feb7b36e0adbd82"
+  },
+  "JobTitle": "Testeur qualité",
+  "Company": "Ubisoft",
+  "JobInformation": "Emploi",
+  "Location": "Annecy",
+  "Description": "<ul><li>Définir les points clés du jeu à valider.</li><li>Valider pour chaque version du jeu produite, les points clés.</li><li>Soumettre le problème rencontré aux équipes de développement</li> </ul>",
+  "StartDate": "2/08/2009",
+  "EndDate": "20/09/2010",
+  "Tags": [
+    {
+      "Text": "Suite Office",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Jira",
+      "Type": "Outil"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa1cb735feb7b36e0adbd83"
+  },
+  "Company": "ItyCom",
+  "JobTitle": "Ingénieur d'études et développement C#",
+  "JobInformation": "Stage",
+  "Location": "Annecy",
+  "Description": "<p>Création d’un Serious Game (Jeu vidéo de formation) avec le moteur Unity 3D en remplacement du moteur Flash</p><ul><li>Etude de l’outil Unity 3D</li><li>Création d’une API pour faciliter les développements et les chargements dynamiques</li><li>Création d’une démonstration pour une exposition au salon de Genève en utilisant une Kinect de Microsoft</li></ul>",
+  "StartDate": "2/07/2012",
+  "EndDate": "31/09/2012",
+  "Tags": [
+    {
+      "Text": "Mono C#",
+      "Type": "Language"
+    },
+    {
+      "Text": "Unity 3D",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Kinect",
+      "Type": "Outil"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa6bcbd3dc3407efcdbe45c"
+  },
+  "Company": "Sopra Steria",
+  "JobTitle": "Ingénieur d'études et développement .NET",
+  "JobInformation": "Informatique interne",
+  "Location": "Annecy",
+  "Description": "<br/><p><u>Maintenances applicative</u><br/>1 personne - 18 mois </p><p>Projet : Evolution et maintenance d’applications métier</p><ul><li>Prise en main des Framework internes existants</li><li>Prise en main des procédures spécifiques à l’entreprise</li><li>Réalisation d’évolutions et de corrections sur les applications internes du groupe</li></ul>",
+  "StartDate": "15/10/2012",
+  "EndDate": "15/04/2014",
+  "Tags": [
+    {
+      "Text": "C#",
+      "Type": "Language"
+    },
+    {
+      "Text": "ASP.NET - MVC 5",
+      "Type": "Language"
+    },
+    {
+      "Text": "Entity Framework",
+      "Type": "Language"
+    },
+    {
+      "Text": "Web Services REST",
+      "Type": "Language"
+    },
+    {
+      "Text": "Visual Studio 2015",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Oracle 12c",
+      "Type": "SGBD"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa6bccb3dc3407efcdbe45d"
+  },
+  "Company": "Sopra Steria",
+  "JobTitle": "Ingénieur d'études et développement .NET",
+  "JobInformation": "Informatique interne",
+  "Location": "Annecy",
+  "Description": "<br/><p><u>Développements spécifiques pour CMS Sitefinity </u><br/>2/3 personne - 20 mois </p><p>Projet : Modernisation sites Corporate, Recrutement et Support du Groupe</p><ul><li>Etude, conception et développement de modules spécifiques pour intégration au CMS Sitefinity,</li><li>Etude et utilisation du CDN Limelight pour gérer les contenus de livraison client</li></ul>",
+  "StartDate": "15/04/2014",
+  "EndDate": "15/11/2015",
+  "Tags": [
+    {
+      "Text": "C#",
+      "Type": "Language"
+    },
+    {
+      "Text": "ASP.NET - MVC 5",
+      "Type": "Language"
+    },
+    {
+      "Text": "Entity Framework",
+      "Type": "Language"
+    },
+    {
+      "Text": "Lucene",
+      "Type": "Language"
+    },
+    {
+      "Text": "Visual Studio 2015",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Oracle 12c",
+      "Type": "SGBD"
+    },
+    {
+      "Text": "Sitefinity",
+      "Type": "Outil"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa6bcd73dc3407efcdbe45e"
+  },
+  "Company": "Sopra Steria",
+  "JobTitle": "Ingénieur d'études et développement .NET",
+  "JobInformation": "Informatique interne - Team architectes",
+  "Location": "Annecy",
+  "Description": "<br/><p><u>Développement Framework MVC</u><br/>4 personne - 12 mois </p><p>Projet : Création Framework MVC pour applications web internes et développement application métieren parallèle pour valider le Framework </p><ul><li>Réflexion sur le besoin et choix technologiques</li><li>Analyse et développement de l’application Web, Vues, Controllers et Business et Framework</li><li>Analyse, conception et développement de web services REST</li><li>Formation des équipes de développement</li></ul>",
+  "StartDate": "15/11/2015",
+  "EndDate": "02/01/2016",
+  "Tags": [
+    {
+      "Text": "C#",
+      "Type": "Language"
+    },
+    {
+      "Text": "ASP.NET - MVC 5",
+      "Type": "Language"
+    },
+    {
+      "Text": "Entity Framework",
+      "Type": "Language"
+    },
+    {
+      "Text": "Lucene",
+      "Type": "Language"
+    },
+    {
+      "Text": "Visual Studio 2015",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Oracle 12c",
+      "Type": "SGBD"
+    },
+    {
+      "Text": "SQL Server",
+      "Type": "SGBD"
+    },
+    {
+      "Text": "Architecture",
+      "Type": "JobType"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa31dd85feb7b36e0adbd84"
+  },
+  "Company": "Sopra Steria",
+  "JobTitle": "Ingénieur d'études et développement .NET",
+  "JobInformation": "Informatique interne - Equipe architectes",
+  "Location": "Annecy",
+  "Description": "<br/><p><u>Etude et mise en place forge logicielle et changement d'outl de versionning</u><br/>Equipe de 3 personnes - 3 mois </p><p>Projet :Etude des avantages, de la faisabilité et de l’impact sur les procédures de développement, de livraison, de retours</p><ul><li>Etude d'impact de changement de source control</li><li>Elaboration de procédures pour une migration controllée</li><li>Etude de logiciels tiers et du module Team Explorer de Visual Studio en vue de former les équipes</li><li>Développement d'un outil de migration des process de test de Quality Center vers VSTS</li><li>Formation équipes</li></ul>",
+  "StartDate": "02/01/2016",
+  "EndDate": "04/04/2016",
+  "Tags": [
+    {
+      "Text": "C#",
+      "Type": "Language"
+    },
+    {
+      "Text": "ASP.NET - MVC 5",
+      "Type": "Language"
+    },
+    {
+      "Text": "Entity Framework",
+      "Type": "Language"
+    },
+    {
+      "Text": "Web Services REST",
+      "Type": "Language"
+    },
+    {
+      "Text": "Visual Studio 2015",
+      "Type": "Outil"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa6e00f3dc3407efcdbe45f"
+  },
+  "Company": "Cloudiway",
+  "JobTitle": "Ingénieur d'études et développement",
+  "JobInformation": "Emploi",
+  "Location": "Annecy",
+  "Description": "<br/><p><u>Implementation DevOps, CI/CD, automatisations</u><br/>1 personne - 4 mois </p><p></p><ul><li>Prise en main du code existant</li><li>Installation d'outils facilitant le développement, le déploiement et la productivité (Azure DevOps)</li><li>Révision des processus et mise en place de CI/CD</li><li>Migration d'outil de versioning de SVN vers GIT</li><li>Formation équipes et accompagnement au changement</li></ul>",
+  "StartDate": "05/04/2018",
+  "EndDate": "15/09/2018",
+  "Tags": [
+    {
+      "Text": "Azure DevOps",
+      "Type": "Outil"
+    },
+    {
+      "Text": "GIT",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Formations",
+      "Type": "JobType"
+    },
+    {
+      "Text": "Visual Studio 2017",
+      "Type": "Outil"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fa6f8b93dc3407efcdbe460"
+  },
+  "Company": "Cloudiway",
+  "JobTitle": "Directeur technique",
+  "JobInformation": " ",
+  "Location": "Annecy",
+  "Description": "<br/><p><u>Refonte technique complète</u><br/>5 personne  </p><p></p><ul><li>Etude du besoin et contraintes avec produits existants</li><li>Recherche des solutions pour définir une infrastructure adéquate</li><li>Définition d'une architecture logicielle robuste</li><li>Développement d'une application pilote</li><li>Formation équipes et accompagnement au changement</li><li>Pilotage équipe de 5 personnes</li></ul>",
+  "StartDate": "15/09/2018",
+  "EndDate": "Actuel",
+  "Tags": [
+    {
+      "Text": "Azure DevOps",
+      "Type": "Outil"
+    },
+    {
+      "Text": "GIT",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Formations",
+      "Type": "JobType"
+    },
+    {
+      "Text": "Visual Studio 2019",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Azure",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Kubernetes",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Docker",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Azure Key Vault",
+      "Type": "Outil"
+    },
+    {
+      "Text": "Azure Service Bus",
+      "Type": "Outil"
+    },
+    {
+      "Text": ".NET Core",
+      "Type": "Language"
+    },
+    {
+      "Text": "Entity Framework",
+      "Type": "Language"
+    },
+    {
+      "Text": "Powershell Core",
+      "Type": "Language"
+    },
+    {
+      "Text": "SQL Server",
+      "Type": "SGBD"
+    }
+  ]
+}]

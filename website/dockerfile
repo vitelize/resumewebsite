@@ -1,0 +1,46 @@
+FROM node:10.14
+ARG SECRET
+
+#ENV SSH_PASSWD "root:Docker!"
+
+#RUN npm install -g pm2 \ 
+#     && echo "cd /home" >> /etc/bash.bashrc \
+#     && apt-get update \  
+#	 	 && apt-get install -y --no-install-recommends dialog \
+#     && apt-get install --yes --no-install-recommends openssh-server vim curl wget tcptraceroute openrc
+#RUN	 echo "$SSH_PASSWD" 
+#RUN	 echo "$SSH_PASSWD" | sudo chpasswd 
+	 
+# remove default ssh conf
+#RUN rm -f /etc/ssh/sshd_config
+
+# configure startup
+#COPY startup/sshd_config /etc/ssh/
+#COPY startup/ssh_setup.sh /usr/src/app/
+#RUN chmod  +x /usr/src/app/ssh_setup.sh 
+#RUN sed -i -e 's/\r$//' /usr/src/app/ssh_setup.sh
+#RUN (sleep 1;/usr/src/app/ssh_setup.sh 2>&1 > /dev/null)    
+#RUN  sed -i "s/SSH_PORT/$SSH_PORT/g" /etc/ssh/sshd_config
+
+# Build website 
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+COPY package.json /usr/src/app
+RUN npm install
+COPY . /usr/src/app
+#RUN ls
+#RUN ls /usr/src/app/
+#RUN ls /usr/src/app/startup
+#RUN chmod +x /usr/src/app/startup/init_container.sh 
+
+
+ENV PWD_MONGO $SECRET
+ENV PORT 80
+#ENV SSH_PORT 2222
+EXPOSE 80
+#CMD ["node", "app.js"]
+ENTRYPOINT ["node", "app.js"]
+#CMD ["node", "./startup/www"]
+#RUN ln -s /usr/src/app/startup/init-container.sh
+#CMD ["/usr/src/app/startup/init-container.sh"]
+
